@@ -11433,12 +11433,13 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  margin-top: 10rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 30rem;
 }
 
 @media (min-width: 992px) {
@@ -11497,7 +11498,7 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #4e5572;
+  background-color: #1f1b24;
   color: #fff;
   border-bottom: 2px solid #662e68;
 }
@@ -11507,8 +11508,10 @@ html {
 }
 
 .custom-header {
-  background-color: #4e5572;
+  background-color: #1f1b24;
   border-bottom: 5px solid #662e68;
+  padding-bottom: 0rem;
+  padding-top: 6.5rem;
   
 }
 
@@ -11519,7 +11522,7 @@ html {
 }
 
 #about {
-  background-color: #3e4894;
+  background-color: #3a3b66;
   border-bottom: 5px solid #662e68;
 }
 
@@ -11529,7 +11532,7 @@ html {
 }
 
 .custom-title {
-  margin-left: 30px; 
+  margin-left: -12px; 
   line-height: 50px;
 }
 
