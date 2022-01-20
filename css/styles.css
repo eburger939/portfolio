@@ -11527,3 +11527,12 @@ html {
   background-color: #b0b8db;
   border-bottom: 5px solid #662e68;
 }
+
+.custom-title {
+  margin-left: 30px; 
+  line-height: 50px;
+}
+
+.custom-title h1 {
+  margin-top: 75px;
+}
