@@ -242,7 +242,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #b0b8db;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -1964,6 +1964,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
+  
   border-color: #dee2e6;
 }
 .table > :not(caption) > * > * {
@@ -3030,8 +3031,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #b0b8db;
+  border-color: #b0b8db;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3090,8 +3091,8 @@ textarea.form-control-lg {
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #157347;
-  border-color: #146c43;
+  background-color: #b0b8db;
+  border-color: #b0b8db;
 }
 .btn-check:focus + .btn-success, .btn-success:focus {
   color: #fff;
@@ -3120,8 +3121,8 @@ textarea.form-control-lg {
 }
 .btn-info:hover {
   color: #000;
-  background-color: #31d2f2;
-  border-color: #25cff2;
+  background-color: #b0b8db;
+  border-color: #b0b8db;
 }
 .btn-check:focus + .btn-info, .btn-info:focus {
   color: #000;
@@ -3269,8 +3270,8 @@ textarea.form-control-lg {
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #b0b8db;
+  border-color: #b0b8db;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.5);
@@ -3319,8 +3320,8 @@ textarea.form-control-lg {
 }
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #b0b8db;
+  border-color: #b0b8db;
 }
 .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
   box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
@@ -11352,8 +11353,9 @@ html {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  background-color: #322b5b;
+  background-color: #3a3b66;
   border-bottom: 5px solid #662e68;
+  background-image: linear-gradient(#3a3b66 40%, #1f1b24);
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -11504,7 +11506,7 @@ html {
 }
 
 .copyright {
-  background-color: #322b5b;
+  background-color: #3a3b66;
 }
 
 .custom-header {
@@ -11516,19 +11518,21 @@ html {
 }
 
 .portfolio {
-  background-color: #b0b8db;
+  background-color: #3a3b66;
   border-bottom: 5px solid #662e68;
 
 }
 
 #about {
-  background-color: #3a3b66;
+  background-color: #b0b8db;
   border-bottom: 5px solid #662e68;
+  color: #1f1b24;
 }
 
 #contact {
   background-color: #b0b8db;
   border-bottom: 5px solid #662e68;
+  color: #1f1b24;
 }
 
 .custom-title {
