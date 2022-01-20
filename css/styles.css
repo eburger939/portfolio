@@ -89,6 +89,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -236,6 +237,7 @@ sup {
 }
 
 a {
+  /* start bootstrap in footer */
   color: #1abc9c;
   text-decoration: underline;
 }
@@ -438,14 +440,6 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -11358,6 +11352,8 @@ html {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  background-color: #322b5b;
+  border-bottom: 5px solid #662e68;
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -11458,6 +11454,7 @@ html {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11500,10 +11497,33 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #4e5572;
   color: #fff;
+  border-bottom: 2px solid #662e68;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #322b5b;
+}
+
+.custom-header {
+  background-color: #4e5572;
+  border-bottom: 5px solid #662e68;
+  
+}
+
+.portfolio {
+  background-color: #b0b8db;
+  border-bottom: 5px solid #662e68;
+
+}
+
+#about {
+  background-color: #3e4894;
+  border-bottom: 5px solid #662e68;
+}
+
+#contact {
+  background-color: #b0b8db;
+  border-bottom: 5px solid #662e68;
 }
